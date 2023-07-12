@@ -1,0 +1,57 @@
+.header {
+  background-color: rgb(0, 0, 0);
+  grid-column: 1/-1;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #4d4c4c4f, #000000),
+    url(/img/chef-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.header1 {
+  font-size: 40px;
+  color: white;
+}
+.header2 {
+  color: white;
+  font-size: 50px;
+}
+.header-text {
+  color: orange;
+}
+.header-btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  font-family: sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.4s;
+  justify-self: center;
+}
+.header-btn:hover {
+  background-color: white;
+  color: orange;
+}
+@media screen and (max-width: 599px) {
+  .header {
+    background-position-x: 10%;
+  }
+  .header1 {
+    font-size: 30px;
+  }
+  .header2 {
+    font-size: 40px;
+  }
+  .header-btn {
+    font-size: 12px;
+    padding: 15px 25px;
+  }
+}
