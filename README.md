@@ -1,1 +1,1 @@
-i will be optimie performance speed with using css sprite and decrease image size in next release
+I will optimize performance speed with CSS sprite and decrease image size in the next release.
