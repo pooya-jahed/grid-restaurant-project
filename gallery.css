@@ -10,27 +10,27 @@
   grid-template-areas: "gallery_1 gallery_1 gallery_2" "gallery_3 gallery_4 gallery_2" "gallery_3 gallery_5 gallery_5";
 }
 .gallery1 {
-  background-image: url(/img/gallary-img1.jpg);
+  background-image: url(/img/gallary-img1.webp);
   grid-area: gallery_1;
 }
 .gallery2 {
-  background-image: url(/img/gallary-img5.jpg);
+  background-image: url(/img/gallary-img5.webp);
   grid-area: gallery_2;
 }
 .gallery3 {
-  background-image: url(/img/gallary-img4.jpg);
+  background-image: url(/img/gallary-img4.webp);
   grid-area: gallery_3;
 }
 .gallery4 {
-  background-image: url(/img/gallary-img3.jpg);
+  background-image: url(/img/gallary-img3.webp);
   grid-area: gallery_4;
 }
 .gallery5 {
-  background-image: url(/img/gallary-img2.jpg);
+  background-image: url(/img/gallary-img2.webp);
   grid-area: gallery_5;
 }
 .gallery6 {
-  background-image: url(/img/gallary-img2.jpg);
+  background-image: url(/img/gallary-img6.webp);
   grid-area: gallery_6;
 }
 .image-gallery {

@@ -3,7 +3,7 @@
   grid-column: 1/-1;
   text-align: center;
   background-image: linear-gradient(to bottom, #4d4c4c4f, #000000),
-    url(/img/chef-header.jpg);
+    url("./img/chef-header.webp");
   background-repeat: no-repeat;
   background-size: cover;
 

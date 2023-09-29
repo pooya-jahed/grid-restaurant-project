@@ -28,25 +28,25 @@ document.getElementById("fa-IR").addEventListener("click",function(){
         <section class="story-images">
           <img
             class="image image-1"
-            src="/img/story-gallery1.jpg"
+            src="./img/gallary-img1.webp"
             alt="DELICIOUS FOOD RESTAURANT"
           />
           <img
             class="image image-2"
-            src="/img/story-gallery2.jpg"
+            src="./img/gallary-img4.webp"
             alt="DELICIOUS FOOD RESTAURANT"
           />
           <img
-            class="image image-3"
-            src="/img/story-gallery3.jpg"
-            alt="DELICIOUS FOOD RESTAURANT"
-          />
-          <img
-            class="image image-4"
-            src="/img/story-gallery4.jpg"
-            alt="DELICIOUS FOOD RESTAURANT"
-          />
-        </section>
+          class="image image-3"
+          src="/img/story-gallery3.webp"
+          alt="DELICIOUS FOOD RESTAURANT"
+        />
+        <img
+          class="image image-4"
+          src="./img/story-gallery4.webp"
+          alt="DELICIOUS FOOD RESTAURANT"
+        />
+      </section>
       </section>
       <!-- ----------------------------------------------------------------------- -->
       <!--                             SERVICE SECTION                             -->
@@ -59,7 +59,7 @@ document.getElementById("fa-IR").addEventListener("click",function(){
           <div class="service-box">
             <img
               class="service-image img-1"
-              src="/img/service-gallery-img1.jpg"
+              src="./img/service-gallery-img1.webp"
               alt=""
             />
             <h4 class="service-text pt-10">رایگان</h4>
@@ -68,7 +68,7 @@ document.getElementById("fa-IR").addEventListener("click",function(){
           <div class="service-box">
             <img
               class="service-image img-1"
-              src="/img/service-gallery-img2.jpg"
+              src="./img/gallary-img3.webp"
               alt=""
             />
             <h4 class="service-text pt-10">رایگان</h4>
@@ -77,7 +77,7 @@ document.getElementById("fa-IR").addEventListener("click",function(){
           <div class="service-box">
             <img
               class="service-image img-1"
-              src="/img/service-gallery-img3.jpg"
+              src="/img/service-gallery-img3.webp"
               alt=""
             />
             <h4 class="service-text pt-10">رایگان</h4>
@@ -86,7 +86,7 @@ document.getElementById("fa-IR").addEventListener("click",function(){
           <div class="service-box">
             <img
               class="service-image img-1"
-              src="/img/service-gallery-img4.jpeg"
+              src="/img/service-gallery-img4.webp"
               alt=""
             />
             <h4 class="service-text pt-10">رایگان</h4>
@@ -95,7 +95,7 @@ document.getElementById("fa-IR").addEventListener("click",function(){
           <div class="service-box">
             <img
               class="service-image img-1"
-              src="/img/service-gallery-img5.jpg"
+              src="/img/service-gallery-img5.webp"
               alt=""
             />
             <h4 class="service-text pt-10">رایگان</h4>
@@ -104,7 +104,7 @@ document.getElementById("fa-IR").addEventListener("click",function(){
           <div class="service-box">
             <img
               class="service-image img-1"
-              src="/img/service-gallery-img6.jpg"
+              src="/img/service-gallery-img6.webp"
               alt=""
             />
             <h4 class="service-text pt-10">رایگان</h4>
@@ -150,17 +150,17 @@ document.getElementById("fa-IR").addEventListener("click",function(){
             <div class="leftbox">
               <img
                 class="leftbox-img"
-                src="/img/reserve-catalog-img1.jpg"
+                src="./img/gallary-img3.webp"
                 alt=""
               />
               <img
                 class="leftbox-img"
-                src="/img/reserve-catalog-img2.jpg"
+                src="./img/gallary-img1.webp"
                 alt=""
               />
               <img
                 class="leftbox-img"
-                src="/img/reserve-catalog-img3.jpg"
+                src="./img/service-gallery-img6.webp"
                 alt=""
               />
             </div>

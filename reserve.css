@@ -11,7 +11,7 @@
   grid-template-rows: 1fr;
   padding: 55px;
   background-image: linear-gradient(to bottom, #4d4c4c4f, #000000),
-    url(/img/reserve-catalog-back.webp);
+    url("./img/chef-header1.webp");
   text-align: center;
   background-size: cover;
   background-position: center;
