@@ -1,47 +1,29 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DELICIOUS FOOD</title>
-    <link rel="stylesheet" href="/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/e54150c0f3.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- *TODO: need to optimize image size for better loading and also using css sprite for optimize  server request -->
+
+
+document.getElementById("fa-IR").addEventListener("click",function(){
+    document.querySelector("body").innerHTML=`  <!-- *TODO: need to optimize image size for better loading and also using css sprite for optimize  server request -->
 
     <div class="container">
-     
       <!-- ----------------------------------------------------------------------- -->
       <!--                             HEADER SECTION                              -->
       <!-- ----------------------------------------------------------------------- -->
       <header class="header">
-       
-        <span class="language position-absolute">
-          <a class="header-lan header-lan-en position-absolute" href="" id="en-US">English</a>
-           <a class="header-lan header-lan-fa position-absolute" id="fa-IR">فارسی</a></span>
-        <h3 class=" header1" >welcome to</h3>
+      <span class="language position-absolute">
+      <a class="header-lan header-lan-en position-absolute" href="" id="en-US">English</a>
+       <a class="header-lan header-lan-fa position-absolute" id="fa-IR">Persian</a></span>
+        <h3 class="lang header1" key="welcome"> به سایت </h3>
         <h1 class="header2">
-          <span class="header-text">DELICIOUS </span>
-          FOOD
+          <span class="header-text"> غذای لذیذ </span>
+          خوش آمدید
         </h1>
-        <button class="header-btn">ORDER FOOD</button>
+        <button class="header-btn">سفارش غذا</button>
       </header>
       <!-- ----------------------------------------------------------------------- -->
       <!--                              STORY SECTION                              -->
       <!-- ----------------------------------------------------------------------- -->
       <section class="story">
         <div>
-          <h3 class="section-title">our story</h3>
+          <h3 class="section-title">استوری ها</h3>
         </div>
         <section class="story-images">
           <img
@@ -71,7 +53,7 @@
       <!-- ----------------------------------------------------------------------- -->
       <section class="service">
         <div>
-          <h3 class="section-title">OUR SERVICES</h3>
+          <h3 class="section-title">خدمات ما</h3>
         </div>
         <section class="services-section">
           <div class="service-box">
@@ -80,8 +62,8 @@
               src="/img/service-gallery-img1.jpg"
               alt=""
             />
-            <h4 class="service-text pt-10">free</h4>
-            <h6 class="service-text text">free delivery</h6>
+            <h4 class="service-text pt-10">رایگان</h4>
+            <h6 class="service-text text">ارسال رایگان</h6>
           </div>
           <div class="service-box">
             <img
@@ -89,8 +71,8 @@
               src="/img/service-gallery-img2.jpg"
               alt=""
             />
-            <h4 class="service-text pt-10">free</h4>
-            <h6 class="service-text text">free delivery</h6>
+            <h4 class="service-text pt-10">رایگان</h4>
+            <h6 class="service-text text">ارسال رایگان</h6>
           </div>
           <div class="service-box">
             <img
@@ -98,8 +80,8 @@
               src="/img/service-gallery-img3.jpg"
               alt=""
             />
-            <h4 class="service-text pt-10">free</h4>
-            <h6 class="service-text text">free delivery</h6>
+            <h4 class="service-text pt-10">رایگان</h4>
+            <h6 class="service-text text">ارسال رایگان</h6>
           </div>
           <div class="service-box">
             <img
@@ -107,8 +89,8 @@
               src="/img/service-gallery-img4.jpeg"
               alt=""
             />
-            <h4 class="service-text pt-10">free</h4>
-            <h6 class="service-text text">free delivery</h6>
+            <h4 class="service-text pt-10">رایگان</h4>
+            <h6 class="service-text text">ارسال رایگان</h6>
           </div>
           <div class="service-box">
             <img
@@ -116,8 +98,8 @@
               src="/img/service-gallery-img5.jpg"
               alt=""
             />
-            <h4 class="service-text pt-10">free</h4>
-            <h6 class="service-text text">free delivery</h6>
+            <h4 class="service-text pt-10">رایگان</h4>
+            <h6 class="service-text text">ارسال رایگان</h6>
           </div>
           <div class="service-box">
             <img
@@ -125,8 +107,8 @@
               src="/img/service-gallery-img6.jpg"
               alt=""
             />
-            <h4 class="service-text pt-10">free</h4>
-            <h6 class="service-text text">free delivery</h6>
+            <h4 class="service-text pt-10">رایگان</h4>
+            <h6 class="service-text text">ارسال رایگان</h6>
           </div>
         </section>
       </section>
@@ -135,36 +117,35 @@
       <!-- ----------------------------------------------------------------------- -->
       <section class="reserve">
         <div>
-          <h3 class="section-title">ordering</h3>
+          <h3 class="section-title">سفارش</h3>
         </div>
         <section class="reserve-section">
           <div class="right">
-            <h4 class="reserve-title">order easily!</h4>
-            <h5 class="reserve-branch">branch</h5>
+            <h4 class="reserve-title">به راحتی سفارش بده!</h4>
+            <h5 class="reserve-branch">شعب ما</h5>
             <h6>
-              France<span class="parantes">(</span>Paris<span class="parantes"
+              ایران<span class="parantes">(</span>تهران<span class="parantes"
                 >)</span
               >
             </h6>
             <h6>
-              German<span class="parantes">(</span>Berlin<span class="parantes"
+              فرانسه<span class="parantes">(</span>پاریس<span class="parantes"
                 >)</span
               >
             </h6>
             <h6>
-              Canada<span class="parantes">(</span>Toronto<span class="parantes"
+              کانادا<span class="parantes">(</span>تورنتو<span class="parantes"
                 >)</span
               >
             </h6>
             <h6 class="order-text">
-              you just can find any delicious here your food will reach you
-              quickly
+             شما میتوانید به راحتی غذای مورد علاقه خودتان را انتخاب کرده و رایگان تحویل بگیرید.
             </h6>
           </div>
           <div class="left">
-            <h3 class="left-title">tel:</h3>
+            <h3 class="left-title">:تلفن</h3>
             <h4>658-854-144</h4>
-            <h3 class="left-title">Email:</h3>
+            <h3 class="left-title">:ایمیل</h3>
             <h4>info@gmail.com</h4>
             <div class="leftbox">
               <img
@@ -191,7 +172,7 @@
       <!-- ----------------------------------------------------------------------- -->
       <section class="gallery">
         <div>
-          <h3 class="section-title">gallery</h3>
+          <h3 class="section-title">گالری</h3>
         </div>
         <section class="gallery-section">
           <div class="image-gallery gallery1"></div>
@@ -210,22 +191,22 @@
         <div class="footer-section">
           <ul>
             <li style="margin-top: 15px">
-              <h3 class="footer-title">service</h3>
+              <h3 class="footer-title">سرویس ها</h3>
             </li>
-            <li style="margin-top: 15px"><h5>Answer FAQ</h5></li>
-            <li style="margin-top: 15px"><h5>Bugs Report</h5></li>
-            <li style="margin-top: 15px"><h5>Security</h5></li>
+            <li style="margin-top: 15px"><h5>سوالات</h5></li>
+            <li style="margin-top: 15px"><h5>گزارش خطا</h5></li>
+            <li style="margin-top: 15px"><h5>امنیت</h5></li>
           </ul>
           <!-- middle  subsection -->
 
           <ul>
             <li style="margin-top: 15px">
-              <h3 class="footer-title">communication</h3>
+              <h3 class="footer-title">راه های ارتباط با ما</h3>
             </li>
             <li style="margin-top: 15px">
               <a href=""
-                ><h5 class="whatsapp">
-                  <i class="fa-brands fa-whatsapp fa-lg logo"></i> Whatsapp
+                ><h5 class="واتس آپ">
+                  <i class="fa-brands fa-whatsapp fa-lg logo"></i> واتس آپ
                 </h5></a
               >
             </li>
@@ -233,14 +214,14 @@
             <li style="margin-top: 15px">
               <a href=""
                 ><h5 class="youtube" style="margin-right: 5px">
-                  <i class="fa-brands fa-youtube fa-lg logo-3"></i> Youtube
+                  <i class="fa-brands fa-youtube fa-lg logo-3"></i> یوتیوب
                 </h5></a
               >
             </li>
             <li style="margin-top: 15px">
               <a href=""
                 ><h5 class="telegram">
-                  <i class="fa-brands fa-telegram fa-lg logo"> </i> Telegram
+                  <i class="fa-brands fa-telegram fa-lg logo"> </i> تلگرام
                 </h5></a
               >
             </li>
@@ -248,20 +229,23 @@
           <!-- right side subsection -->
           <ul>
             <li style="margin-top: 15px">
-              <h3 class="footer-title">foods</h3>
+              <h3 class="footer-title">غذاها</h3>
             </li>
-            <li style="margin-top: 15px"><h5>Online Reserve</h5></li>
-            <li style="margin-top: 15px"><h5>Recipe</h5></li>
-            <li style="margin-top: 15px"><h5>Heiring a Chef</h5></li>
+            <li style="margin-top: 15px"><h5>رزرو آنلاین</h5></li>
+            <li style="margin-top: 15px"><h5>دستور های  پخت</h5></li>
+            <li style="margin-top: 15px"><h5>استخدام آشپز</h5></li>
           </ul>
         </div>
         <h4 class="copy">
-          &copy;All information reserve by
-          <span class="copy-text"> DELICIOUS </span>food
+          &copy;تمامی حقوق این سایت متعلق به 
+          <span class="copy-text"> DELICIOUS </span>food میباشد
         </h4>
       </footer>
       <!-- *TODO: need to optimize image size for better loading and also using css sprite for optimize  server request -->
     </div>
-    <script src="./lang.js"></script>
-  </body>
-</html>
+    <script src="./lang.js"></script>`;
+})
+
+
+document.getElementById("en-US").addEventListener("click",function(){
+    window.location.reload();})
